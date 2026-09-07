@@ -1,16 +1,97 @@
-# React + Vite
+# NOVA AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NOVA is a modern productivity workspace landing page for teams that want to plan projects, automate repetitive work, and keep collaboration focused. It is built as a responsive React experience with interactive product previews, pricing selection, testimonials, smooth navigation, and polished motion.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View the live demo](https://nova-ai-gamma-nine.vercel.app/)
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- Tailwind CSS
+- JavaScript (ES modules)
+- Lucide React icons
+- PostCSS and Autoprefixer
+- ESLint
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive SaaS landing page layout
+- Light and dark theme switching
+- Interactive hero and product dashboard previews
+- Mouse-following dashboard tilt effects
+- Automatic testimonial carousel with manual controls
+- Trusted company marquee animation
+- Selectable pricing cards with monthly and annual billing
+- FAQ accordion interactions
+- Animated statistics counters
+- Smooth section navigation with sticky-header offset support
+- Floating animated Back to Top button
+- Newsletter email validation and success states
+- Keyboard focus states and accessible interactive controls
+- Reduced-motion-aware interaction utilities
+
+## Installation
+
+### Prerequisites
+
+- Node.js 18 or newer
+- npm
+
+### Setup
+
+1. Clone the repository:
+
+	```bash
+	git clone <your-repository-url>
+	cd nova-ai
+	```
+
+2. Install dependencies:
+
+	```bash
+	npm install
+	```
+
+3. Start the development server:
+
+	```bash
+	npm run dev
+	```
+
+4. Open the local URL shown by Vite in your browser.
+
+### Production Build
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Screenshots
+
+The latest interface can be viewed at the live deployment:
+
+[Open NOVA in the browser](https://nova-ai-gamma-nine.vercel.app/)
+
+The page is designed to be reviewed across desktop, tablet, and mobile viewport sizes.
+
+## AI Tools Used
+
+- GitHub Copilot for implementation assistance, debugging, refactoring, interaction design, and documentation support.
+
+## Available Scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the Vite development server |
+| `npm run build` | Create a production build |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
