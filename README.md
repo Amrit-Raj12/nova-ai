@@ -77,6 +77,9 @@ npm run preview
 
 ## Screenshots
 
+<img width="3438" height="8241" alt="nove-ai-landing-page" src="https://github.com/user-attachments/assets/a3ef2644-a053-4efc-98b9-e5dcc0102bb6" />
+
+
 The latest interface can be viewed at the live deployment:
 
 [Open NOVA in the browser](https://nova-ai-gamma-nine.vercel.app/)
