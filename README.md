@@ -1,41 +1,50 @@
 # NOVA AI
 
-NOVA is a modern productivity workspace landing page for teams that want to plan projects, automate repetitive work, and keep collaboration focused. It is built as a responsive React experience with interactive product previews, pricing selection, testimonials, smooth navigation, and polished motion.
+## Project Description
 
-## Live Demo
+NOVA is a modern SaaS productivity workspace landing page designed for teams that want to plan projects, automate repetitive work, and keep collaboration focused.
 
-[View the live demo](https://nova-ai-gamma-nine.vercel.app/)
+The project focuses on a clean, professional, responsive user interface with interactive sections, reusable React components, smooth animations, and light/dark theme support.
 
 ## Technologies Used
 
 - React 19
 - Vite
 - Tailwind CSS
-- JavaScript (ES modules)
-- Lucide React icons
-- PostCSS and Autoprefixer
+- JavaScript (ES Modules)
+- Lucide React
+- PostCSS
+- Autoprefixer
 - ESLint
 
 ## Features
 
-- Responsive SaaS landing page layout
-- Light and dark theme switching
-- Interactive hero and product dashboard previews
-- Mouse-following dashboard tilt effects
-- Automatic testimonial carousel with manual controls
-- Trusted company marquee animation
-- Selectable pricing cards with monthly and annual billing
-- FAQ accordion interactions
+- Fully responsive SaaS landing page
+- Light and dark mode
+- Responsive navigation with mobile menu
+- Interactive hero product dashboard
+- Product overview section
+- Features section with reusable cards
+- How It Works section
 - Animated statistics counters
-- Smooth section navigation with sticky-header offset support
-- Floating animated Back to Top button
-- Newsletter email validation and success states
-- Keyboard focus states and accessible interactive controls
-- Reduced-motion-aware interaction utilities
+- Solutions / Use Cases section
+- Testimonial carousel with navigation controls
+- Monthly / Annual pricing toggle
+- Three pricing plans
+- FAQ accordion
+- Final call-to-action section
+- Newsletter email validation with success/error states
+- Smooth scrolling navigation
+- Back-to-top button
+- Hover and scroll-reveal animations
+- Accessible buttons, forms, and keyboard focus states
+- Reduced-motion-aware interactions
 
-## Installation
+## Installation Instructions
 
 ### Prerequisites
+
+Make sure you have the following installed:
 
 - Node.js 18 or newer
 - npm
@@ -44,53 +53,40 @@ NOVA is a modern productivity workspace landing page for teams that want to plan
 
 1. Clone the repository:
 
-	```bash
-	git clone <your-repository-url>
-	cd nova-ai
-	```
+```bash
+git clone <your-repository-url>
+cd nova-ai
+```
 
 2. Install dependencies:
 
-	```bash
-	npm install
-	```
+```bash
+npm install
+```
 
 3. Start the development server:
 
-	```bash
-	npm run dev
-	```
+```bash
+npm run dev
+```
 
-4. Open the local URL shown by Vite in your browser.
+4. Open the local URL displayed by Vite in your browser.
 
 ### Production Build
+
+Create an optimized production build:
 
 ```bash
 npm run build
 ```
 
-To preview the production build locally:
+Preview the production build locally:
 
 ```bash
 npm run preview
 ```
 
-## Screenshots
-
-<img width="3438" height="8241" alt="nove-ai-landing-page" src="https://github.com/user-attachments/assets/a3ef2644-a053-4efc-98b9-e5dcc0102bb6" />
-
-
-The latest interface can be viewed at the live deployment:
-
-[Open NOVA in the browser](https://nova-ai-gamma-nine.vercel.app/)
-
-The page is designed to be reviewed across desktop, tablet, and mobile viewport sizes.
-
-## AI Tools Used
-
-- GitHub Copilot for implementation assistance, debugging, refactoring, interaction design, and documentation support.
-
-## Available Scripts
+### Available Scripts
 
 | Command | Description |
 | --- | --- |
@@ -98,3 +94,18 @@ The page is designed to be reviewed across desktop, tablet, and mobile viewport 
 | `npm run build` | Create a production build |
 | `npm run preview` | Preview the production build locally |
 | `npm run lint` | Run ESLint |
+
+## Screenshots
+
+![NOVA AI Landing Page](https://github.com/user-attachments/assets/a3ef2644-a053-4efc-98b9-e5dcc0102bb6)
+
+The interface is designed to work across desktop, tablet, and mobile viewport sizes.
+
+## Live Demo URL
+
+[https://nova-ai-gamma-nine.vercel.app/](https://nova-ai-gamma-nine.vercel.app/)
+
+## AI Tools Used
+
+- GitHub Copilot — used for implementation assistance, debugging, refactoring, interaction development, and documentation support.
+- AI assistance was used as a development aid while the project structure, components, styling, and interactions were reviewed and customized for the final implementation.
