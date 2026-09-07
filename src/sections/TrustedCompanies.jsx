@@ -29,7 +29,7 @@ function TrustedCompanies() {
                   {companies.map((company) => (
                     <div
                       key={`${group}-${company}`}
-                      className="w-24 shrink-0 text-center text-sm font-bold tracking-tight text-[#7A858D] transition hover:text-ink dark:text-gray-400 dark:hover:text-gray-300 sm:w-28"
+                      className="w-24 shrink-0 text-center text-sm font-bold tracking-tight text-slate transition hover:text-ink dark:text-gray-400 dark:hover:text-gray-300 sm:w-28"
                     >
                       {company}
                     </div>
