@@ -12,17 +12,17 @@ function SectionHeading({
   return (
     <div className={`max-w-2xl ${alignment}`}>
       {eyebrow && (
-        <p className="mb-3 text-xs font-bold uppercase tracking-[0.16em] text-teal">
+        <p className="section-eyebrow mb-4 text-[11px] font-bold uppercase tracking-[0.16em] text-teal">
           {eyebrow}
         </p>
       )}
 
-      <h2 className="text-3xl font-extrabold tracking-[-0.03em] text-ink sm:text-4xl dark:text-white">
+      <h2 className="text-3xl font-bold leading-[1.05] tracking-[-0.045em] text-ink sm:text-5xl dark:text-white">
         {title}
       </h2>
 
       {description && (
-        <p className="mt-4 text-sm leading-6 text-slate sm:text-base dark:text-gray-500">
+        <p className="mt-5 text-sm leading-7 text-slate sm:text-base dark:text-gray-400">
           {description}
         </p>
       )}

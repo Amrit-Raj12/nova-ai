@@ -27,7 +27,7 @@ function FAQ() {
         </Reveal>
 
         <Reveal className="mx-auto mt-12 max-w-3xl">
-          <div className="rounded-2xl border border-line bg-white px-5 dark:border-[#293734] dark:bg-[#17211F] sm:px-7">
+          <div className="rounded-2xl border border-line bg-white px-5 shadow-soft dark:border-[#293734] dark:bg-[#17211F] sm:px-7">
             {faqs.map((faq, index) => (
               <FAQItem
                 key={faq.question}

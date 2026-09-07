@@ -25,11 +25,11 @@ function ProductOverview() {
 
           <Reveal>
             <div className="max-w-lg">
-              <p className="mb-3 text-xs font-bold uppercase tracking-[0.16em] text-teal">
+              <p className="section-eyebrow mb-4 text-[11px] font-bold uppercase tracking-[0.16em] text-teal">
                 One workspace
               </p>
 
-              <h2 className="text-3xl font-extrabold leading-tight tracking-[-0.035em] text-ink sm:text-4xl dark:text-white">
+              <h2 className="text-3xl font-bold leading-[1.05] tracking-[-0.045em] text-ink sm:text-5xl dark:text-white">
                 Less time managing work.
                 <br />
                 More time doing it.

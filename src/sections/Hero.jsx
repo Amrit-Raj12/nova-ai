@@ -21,19 +21,19 @@ function Hero() {
   return (
     <section
       id="top"
-      className="overflow-hidden border-b border-line bg-cream dark:border-[#293734] dark:bg-[#101817]"
+      className="section-atmosphere overflow-hidden border-b border-line bg-cream dark:border-[#293734] dark:bg-[#101817]"
     >
       <Container>
-        <div className="grid items-center gap-12 py-16 md:grid-cols-[0.9fr_1.1fr] md:py-20 lg:gap-16 lg:py-24">
+        <div className="grid items-center gap-12 py-20 md:grid-cols-[0.9fr_1.1fr] md:py-24 lg:gap-16 lg:py-28">
           
           {/* Left content */}
           <div className="max-w-xl">
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-line bg-white px-3 py-1.5 text-[11px] font-bold uppercase tracking-[0.12em] text-teal dark:border-[#293734] dark:bg-[#17211f]">
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-teal/20 bg-white/80 px-3 py-1.5 text-[11px] font-bold uppercase tracking-[0.12em] text-teal shadow-sm backdrop-blur dark:border-[#293734] dark:bg-[#17211f]/80">
               <Sparkles size={13} />
               Productivity for modern teams
             </div>
 
-            <h1 className="max-w-xl text-4xl font-extrabold leading-[1.08] tracking-[-0.045em] text-ink sm:text-5xl lg:text-6xl dark:text-white">
+            <h1 className="max-w-xl text-4xl font-bold leading-[1.02] tracking-[-0.06em] text-ink sm:text-6xl lg:text-7xl dark:text-white">
               Build better.
               <br />
               <span className="text-teal">Work smarter.</span>
@@ -92,7 +92,7 @@ function ProductDashboard() {
   return (
     <div className="relative">
       {/* Decorative background */}
-      <div className="absolute -inset-6 -z-10 rounded-[40px] bg-[#E8F4F1] blur-2xl dark:bg-[#123b37]" />
+      <div className="absolute -inset-10 -z-10 rounded-[40px] bg-[#BDEDE4]/60 blur-3xl dark:bg-[#123b37]" />
 
       <div
         onMouseMove={handlePointerMove}
@@ -100,7 +100,7 @@ function ProductDashboard() {
         style={{
           transform: `perspective(1000px) rotateX(${-pointerOffset.y * 0.2}deg) rotateY(${pointerOffset.x * 0.2}deg) translate3d(${pointerOffset.x}px, ${pointerOffset.y}px, 0)`,
         }}
-        className="overflow-hidden rounded-2xl border border-line bg-white shadow-soft transition-transform duration-300 ease-out will-change-transform dark:border-[#293734] dark:bg-[#17211f]"
+        className="overflow-hidden rounded-[22px] border border-line bg-white/95 shadow-lift transition-transform duration-300 ease-out will-change-transform dark:border-[#293734] dark:bg-[#17211f]"
       >
         
         {/* Dashboard header */}

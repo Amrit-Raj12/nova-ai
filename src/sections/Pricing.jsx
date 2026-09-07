@@ -7,6 +7,9 @@ import { pricingPlans } from '../data/pricing'
 
 function Pricing() {
   const [billing, setBilling] = useState('monthly')
+  const [selectedPlan, setSelectedPlan] = useState(
+    pricingPlans.find((plan) => plan.popular)?.name ?? pricingPlans[0]?.name,
+  )
 
   const isAnnual = billing === 'annual'
 
@@ -29,7 +32,7 @@ function Pricing() {
             <button
               type="button"
               onClick={() => setBilling('monthly')}
-              className={`rounded-md px-5 py-2 text-sm font-semibold transition ${
+              className={`rounded-md px-5 py-2 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal ${
                 !isAnnual
                   ? 'bg-white text-ink shadow-sm dark:bg-[#293734] dark:text-white'
                   : 'text-slate hover:text-ink dark:text-gray-500 dark:hover:text-white'
@@ -41,7 +44,7 @@ function Pricing() {
             <button
               type="button"
               onClick={() => setBilling('annual')}
-              className={`rounded-md px-5 py-2 text-sm font-semibold transition ${
+              className={`rounded-md px-5 py-2 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal ${
                 isAnnual
                   ? 'bg-white text-ink shadow-sm dark:bg-[#293734] dark:text-white'
                   : 'text-slate hover:text-ink dark:text-gray-500 dark:hover:text-white'
@@ -64,6 +67,8 @@ function Pricing() {
               <PricingCard
                 {...plan}
                 price={isAnnual ? plan.annual : plan.monthly}
+                selected={selectedPlan === plan.name}
+                onSelect={() => setSelectedPlan(plan.name)}
               />
             </Reveal>
           ))}

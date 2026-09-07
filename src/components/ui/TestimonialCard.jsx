@@ -1,13 +1,16 @@
 function TestimonialCard({ testimonial }) {
   return (
-    <article className="rounded-2xl border border-line bg-white p-6 shadow-soft dark:border-[#293734] dark:bg-[#17211F] sm:p-8">
+    <article className="relative overflow-hidden rounded-2xl border border-line bg-white p-6 shadow-soft dark:border-[#293734] dark:bg-[#17211F] sm:p-10">
+      <span className="pointer-events-none absolute -right-2 -top-8 font-serif text-[11rem] leading-none text-teal/10 dark:text-[#5DE1D0]/10">
+        “
+      </span>
       <div className="flex gap-1 text-amber" aria-label="5 out of 5 stars">
         {Array.from({ length: 5 }).map((_, index) => (
           <span key={index}>★</span>
         ))}
       </div>
 
-      <blockquote className="mt-6 text-lg font-medium leading-8 tracking-[-0.02em] text-ink dark:text-white sm:text-xl">
+      <blockquote className="relative mt-6 max-w-2xl text-xl font-medium leading-8 tracking-[-0.03em] text-ink dark:text-white sm:text-2xl sm:leading-9">
         “{testimonial.quote}”
       </blockquote>
 

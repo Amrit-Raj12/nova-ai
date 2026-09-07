@@ -14,6 +14,7 @@ body {
   background: #f7f8f5;
   color: #17212b;
   font-family: 'DM Sans', sans-serif;
+  background-image: radial-gradient(circle at 50% -10%, rgba(93, 225, 208, 0.1), transparent 32rem);
 }
 
 h1,
@@ -42,8 +43,40 @@ select:focus-visible {
 }
 
 .container-page {
-  width: min(1160px, calc(100% - 40px));
+  width: min(1200px, calc(100% - 40px));
   margin-inline: auto;
+}
+
+.section-atmosphere {
+  position: relative;
+  isolation: isolate;
+}
+
+.section-atmosphere::before {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: linear-gradient(rgba(15, 118, 110, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 118, 110, 0.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+  content: '';
+  mask-image: linear-gradient(to bottom, black, transparent 85%);
+  pointer-events: none;
+}
+
+.section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section-eyebrow::before {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 999px;
+  background: #00a88f;
+  box-shadow: 0 0 0 4px rgba(0, 168, 143, 0.1);
+  content: '';
 }
 
 .marquee-track {

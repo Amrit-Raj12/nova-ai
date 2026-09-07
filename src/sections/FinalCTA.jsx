@@ -4,10 +4,10 @@ import Reveal from '../components/common/Reveal'
 
 function FinalCTA() {
   return (
-    <section className="border-b border-line bg-cream py-20 dark:border-[#293734] dark:bg-[#101817] sm:py-24">
+    <section id="cta" className="section-atmosphere border-b border-line bg-cream py-20 dark:border-[#293734] dark:bg-[#101817] sm:py-24">
       <Container>
         <Reveal>
-          <div className="mx-auto max-w-3xl rounded-2xl border border-line bg-white px-6 py-12 text-center shadow-soft dark:border-[#293734] dark:bg-[#17211F] sm:px-10 sm:py-14">
+          <div className="mx-auto max-w-3xl rounded-[24px] border border-teal/20 bg-white px-6 py-14 text-center shadow-lift dark:border-[#293734] dark:bg-[#17211F] sm:px-10 sm:py-16">
             <div className="mx-auto grid h-12 w-12 place-items-center rounded-xl bg-[#E8F4F1] text-teal dark:bg-[#123B37] dark:text-[#61D1C5]">
               <CheckCircle2 size={23} />
             </div>
@@ -16,7 +16,7 @@ function FinalCTA() {
               Ready when you are
             </p>
 
-            <h2 className="mt-3 text-3xl font-extrabold tracking-[-0.04em] text-ink dark:text-white sm:text-5xl">
+            <h2 className="mt-3 text-3xl font-bold leading-[1.05] tracking-[-0.05em] text-ink dark:text-white sm:text-5xl">
               Make your team's next week easier.
             </h2>
 

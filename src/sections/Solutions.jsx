@@ -25,8 +25,8 @@ function Solutions() {
 
             return (
               <Reveal key={solution.title} className={`delay-${index * 100}`}>
-                <article className="group h-full rounded-xl border border-line bg-cream p-5 transition-all duration-200 hover:-translate-y-1 hover:shadow-soft dark:border-[#293734] dark:bg-[#17211F]">
-                  <div className="grid h-10 w-10 place-items-center rounded-lg bg-[#E8F4F1] text-teal dark:bg-[#123B37] dark:text-[#4CC9BE]">
+                <article className="group h-full rounded-2xl border border-line bg-cream p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-teal/40 hover:shadow-lift dark:border-[#293734] dark:bg-[#17211F]">
+                  <div className="grid h-11 w-11 place-items-center rounded-xl bg-[#E8F4F1] text-teal transition-transform duration-300 group-hover:rotate-3 group-hover:scale-105 dark:bg-[#123B37] dark:text-[#5DE1D0]">
                     <Icon size={20} strokeWidth={1.8} />
                   </div>
 

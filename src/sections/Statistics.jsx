@@ -26,7 +26,7 @@ const statistics = [
 
 function Statistics() {
   return (
-    <section className="border-b border-[#293734] bg-[#17212B] py-16 sm:py-20">
+    <section className="section-atmosphere border-b border-[#293734] bg-[#101820] py-20 sm:py-24">
       <Container>
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {statistics.map((stat) => (

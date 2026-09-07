@@ -23,7 +23,7 @@ function Newsletter() {
   return (
     <section className="border-b border-line bg-cream pb-16 pt-16 dark:border-[#293734] dark:bg-[#101817]">
       <Container>
-        <div className="rounded-2xl border border-line bg-white p-6 shadow-soft dark:border-[#293734] dark:bg-[#17211F] sm:p-8">
+        <div className="group rounded-[22px] border border-teal/15 bg-white p-6 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-lift dark:border-[#293734] dark:bg-[#17211F] sm:p-8">
           <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
             <div>
               <div className="flex items-center gap-2 text-teal dark:text-[#61D1C5]">
@@ -74,7 +74,7 @@ function Newsletter() {
 
                 <button
                   type="submit"
-                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-teal px-5 py-3 text-sm font-semibold text-white transition hover:bg-teal-dark"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-teal px-5 py-3 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-teal-dark hover:shadow-glow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2"
                 >
                   Subscribe
                   <ArrowRight size={16} />

@@ -7,9 +7,9 @@ function FAQItem({ question, answer, isOpen, onClick }) {
         type="button"
         onClick={onClick}
         aria-expanded={isOpen}
-        className="flex w-full items-center justify-between gap-6 py-5 text-left"
+        className="group flex w-full items-center justify-between gap-6 py-5 text-left focus-visible:outline-none"
       >
-        <span className="text-sm font-semibold text-ink dark:text-white sm:text-base">
+        <span className="text-sm font-semibold text-ink transition-colors group-hover:text-teal dark:text-white sm:text-base">
           {question}
         </span>
 

@@ -43,7 +43,7 @@ function Footer() {
   }
 
   return (
-    <footer className="bg-white dark:bg-[#101817]">
+    <footer className="border-t border-line bg-white dark:border-[#293734] dark:bg-[#101817]">
       <Container>
         <div className="grid gap-10 border-b border-line py-12 dark:border-[#293734] md:grid-cols-[1.5fr_repeat(3,1fr)] lg:py-14">
           <div className="max-w-sm">

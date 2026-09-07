@@ -7,13 +7,27 @@ function PricingCard({
   price,
   popular,
   features,
+  selected,
+  onSelect,
 }) {
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault()
+      onSelect()
+    }
+  }
+
   return (
     <article
-      className={`relative flex h-full flex-col rounded-2xl border p-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-soft sm:p-7 ${
-        popular
-          ? 'border-teal bg-[#F2F9F7] dark:border-teal dark:bg-[#162521]'
-          : 'border-line bg-white dark:border-[#293734] dark:bg-[#17211F]'
+      role="button"
+      tabIndex={0}
+      aria-pressed={selected}
+      onClick={onSelect}
+      onKeyDown={handleKeyDown}
+      className={`relative flex h-full cursor-pointer flex-col rounded-2xl border p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2 sm:p-7 ${
+        selected
+          ? 'border-teal bg-[#F2F9F7] shadow-glow ring-2 ring-teal/30 dark:border-[#00A88F] dark:bg-[#162521] dark:ring-[#5DE1D0]/30'
+          : 'border-line bg-white opacity-90 hover:opacity-100 dark:border-[#293734] dark:bg-[#17211F]'
       }`}
     >
       {popular && (

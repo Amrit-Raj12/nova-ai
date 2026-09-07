@@ -26,7 +26,7 @@ function Navbar() {
   ]
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-cream/95 backdrop-blur dark:border-[#293734] dark:bg-[#101817]/95">
+    <header className="sticky top-0 z-50 border-b border-line bg-cream/80 shadow-sm backdrop-blur-xl transition-colors dark:border-[#293734] dark:bg-[#101817]/80">
       <div className="container-page flex h-16 items-center justify-between">
         <a
           href="#top"
@@ -48,7 +48,7 @@ function Navbar() {
               key={href}
               href={href}
               onClick={(event) => handleSectionClick(event, href)}
-              className="text-sm font-medium text-slate transition hover:text-ink dark:text-gray-400 dark:hover:text-white"
+              className="text-sm font-medium text-slate transition-colors hover:text-teal dark:text-gray-400 dark:hover:text-white"
             >
               {label}
             </a>
@@ -76,7 +76,7 @@ function Navbar() {
           <a
             href="#cta"
             onClick={(event) => handleSectionClick(event, '#cta')}
-            className="rounded-lg bg-teal px-4 py-2 text-sm font-semibold text-white transition hover:bg-teal-dark"
+            className="rounded-lg bg-teal px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:bg-teal-dark hover:shadow-glow"
           >
             Start free
           </a>

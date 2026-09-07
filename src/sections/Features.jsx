@@ -7,7 +7,7 @@ function Features() {
   return (
     <section
       id="features"
-      className="border-b border-line bg-cream py-20 dark:border-[#293734] dark:bg-[#101817] sm:py-24"
+      className="section-atmosphere border-b border-line bg-cream py-20 dark:border-[#293734] dark:bg-[#101817] sm:py-24"
     >
       <Container>
         <SectionHeading
