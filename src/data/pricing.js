@@ -1,0 +1,46 @@
+export const pricingPlans = [
+  {
+    name: 'Starter',
+    description: 'For individuals and small projects getting organized.',
+    monthly: 9,
+    annual: 7,
+    popular: false,
+    features: [
+      'Up to 5 projects',
+      'Basic task management',
+      'Simple workflows',
+      'Team comments',
+      '7-day activity history',
+    ],
+  },
+  {
+    name: 'Team',
+    description: 'For growing teams that need more structure and automation.',
+    monthly: 19,
+    annual: 15,
+    popular: true,
+    features: [
+      'Unlimited projects',
+      'Advanced workflows',
+      'Team dashboards',
+      'AI productivity assistant',
+      'Unlimited activity history',
+      'Priority support',
+    ],
+  },
+  {
+    name: 'Scale',
+    description: 'For larger teams managing complex operations.',
+    monthly: 39,
+    annual: 31,
+    popular: false,
+    features: [
+      'Everything in Team',
+      'Advanced permissions',
+      'Custom workflows',
+      'Workspace analytics',
+      'Priority onboarding',
+      'Dedicated support',
+    ],
+  },
+]
