@@ -24,7 +24,7 @@ function TestimonialCard({ testimonial }) {
             {testimonial.name}
           </p>
 
-          <p className="mt-0.5 text-xs text-slate dark:text-gray-500">
+          <p className="mt-0.5 text-xs text-slate dark:text-gray-400">
             {testimonial.role} · {testimonial.company}
           </p>
         </div>

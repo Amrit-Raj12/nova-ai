@@ -138,7 +138,7 @@ function ProjectWorkspace() {
         <div className="flex items-center gap-2">
           <button
             type="button"
-            className="grid h-7 w-7 place-items-center rounded-md text-slate hover:bg-cream dark:text-gray-500 dark:hover:bg-[#202b29]"
+            className="grid h-7 w-7 place-items-center rounded-md text-slate hover:bg-cream dark:text-gray-400 dark:hover:bg-[#202b29]"
             aria-label="Search"
           >
             <Search size={14} />
@@ -151,7 +151,7 @@ function ProjectWorkspace() {
       <div className="p-4 sm:p-5">
         <div className="flex items-start justify-between">
           <div>
-            <p className="text-[9px] font-medium text-slate dark:text-gray-500">
+            <p className="text-[9px] font-medium text-slate dark:text-gray-400">
               Project
             </p>
 
@@ -174,11 +174,11 @@ function ProjectWorkspace() {
             Board
           </div>
 
-          <div className="pb-2 text-[9px] font-medium text-slate dark:text-gray-500">
+          <div className="pb-2 text-[9px] font-medium text-slate dark:text-gray-400">
             Timeline
           </div>
 
-          <div className="pb-2 text-[9px] font-medium text-slate dark:text-gray-500">
+          <div className="pb-2 text-[9px] font-medium text-slate dark:text-gray-400">
             Activity
           </div>
         </div>
@@ -202,7 +202,7 @@ function ProjectWorkspace() {
                 Weekly progress
               </p>
 
-              <p className="mt-1 text-[8px] text-slate dark:text-gray-500">
+              <p className="mt-1 text-[8px] text-slate dark:text-gray-400">
                 18 of 24 tasks completed
               </p>
             </div>
@@ -230,14 +230,14 @@ function TaskColumn({ title, count, tasks }) {
             {title}
           </span>
 
-          <span className="rounded bg-white px-1.5 py-0.5 text-[8px] text-slate dark:bg-[#17211F] dark:text-gray-500">
+          <span className="rounded bg-white px-1.5 py-0.5 text-[8px] text-slate dark:bg-[#17211F] dark:text-gray-400">
             {count}
           </span>
         </div>
 
         <MoreHorizontal
           size={13}
-          className="text-slate dark:text-gray-500"
+          className="text-slate dark:text-gray-400"
         />
       </div>
 
@@ -254,7 +254,7 @@ function TaskColumn({ title, count, tasks }) {
 
               <MoreHorizontal
                 size={11}
-                className="shrink-0 text-slate dark:text-gray-600"
+                className="shrink-0 text-slate dark:text-gray-400"
               />
             </div>
 
@@ -292,7 +292,7 @@ function ProgressColumn({ tasks }) {
 
         <SlidersHorizontal
           size={12}
-          className="text-slate dark:text-gray-500"
+          className="text-slate dark:text-gray-400"
         />
       </div>
 
@@ -304,7 +304,7 @@ function ProgressColumn({ tasks }) {
                 {task.title}
               </span>
 
-              <span className="text-[8px] text-slate dark:text-gray-500">
+              <span className="text-[8px] text-slate dark:text-gray-400">
                 {task.progress}%
               </span>
             </div>

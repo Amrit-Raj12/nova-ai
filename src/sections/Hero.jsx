@@ -61,7 +61,7 @@ function Hero() {
               </a>
             </div>
 
-            <p className="mt-5 text-xs text-slate dark:text-gray-500">
+            <p className="mt-5 text-xs text-slate dark:text-gray-400">
               No credit card required · Set up in minutes
             </p>
           </div>
@@ -195,7 +195,7 @@ function DashboardSidebar() {
             className={`flex items-center gap-2 rounded-md px-2 py-2 text-[9px] font-medium ${
               active
                 ? 'bg-[#E8F4F1] text-teal dark:bg-[#123b37]'
-                : 'text-slate dark:text-gray-500'
+                : 'text-slate dark:text-gray-400'
             }`}
           >
             <Icon size={13} />
@@ -204,7 +204,7 @@ function DashboardSidebar() {
         ))}
       </nav>
 
-      <div className="mt-16 flex items-center gap-2 px-2 text-[9px] text-slate dark:text-gray-500">
+      <div className="mt-16 flex items-center gap-2 px-2 text-[9px] text-slate dark:text-gray-400">
         <Settings size={13} />
         Settings
       </div>
@@ -216,7 +216,7 @@ function ProjectHeader() {
   return (
     <div className="flex items-start justify-between">
       <div>
-        <p className="text-[9px] font-medium text-slate dark:text-gray-500">
+        <p className="text-[9px] font-medium text-slate dark:text-gray-400">
           Project
         </p>
 
@@ -224,7 +224,7 @@ function ProjectHeader() {
           Project Launch
         </h2>
 
-        <p className="mt-1 text-[9px] text-slate dark:text-gray-500">
+        <p className="mt-1 text-[9px] text-slate dark:text-gray-400">
           Get your product ready to meet the market
         </p>
       </div>
@@ -244,7 +244,7 @@ function ProgressBar() {
   return (
     <div className="mt-4">
       <div className="mb-1.5 flex items-center justify-between">
-        <span className="text-[9px] font-medium text-slate dark:text-gray-500">
+        <span className="text-[9px] font-medium text-slate dark:text-gray-400">
           Overall progress
         </span>
 
@@ -291,7 +291,7 @@ function DashboardStats() {
             {stat.value}
           </p>
 
-          <p className="mt-0.5 text-[8px] text-slate dark:text-gray-500">
+          <p className="mt-0.5 text-[8px] text-slate dark:text-gray-400">
             {stat.label}
           </p>
         </div>
@@ -337,7 +337,7 @@ function RecentActivity() {
 
         <MoreHorizontal
           size={14}
-          className="text-slate dark:text-gray-500"
+          className="text-slate dark:text-gray-400"
         />
       </div>
 
@@ -357,7 +357,7 @@ function RecentActivity() {
                 {activity.action}
               </p>
 
-              <p className="mt-0.5 text-[7px] text-slate dark:text-gray-600">
+              <p className="mt-0.5 text-[7px] text-slate dark:text-gray-400">
                 {activity.time}
               </p>
             </div>
@@ -383,7 +383,7 @@ function TeamProgress() {
                 72%
               </p>
 
-              <p className="text-[7px] text-slate dark:text-gray-500">
+              <p className="text-[7px] text-slate dark:text-gray-400">
                 Complete
               </p>
             </div>
@@ -422,7 +422,7 @@ function ProgressLegend({ label, value, active = false }) {
           }`}
         />
 
-        <span className="text-slate dark:text-gray-500">
+        <span className="text-slate dark:text-gray-400">
           {label}
         </span>
       </div>

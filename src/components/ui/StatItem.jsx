@@ -14,7 +14,7 @@ function StatItem({
         {suffix}
       </div>
 
-      <p className="mx-auto mt-2 max-w-[180px] text-xs leading-5 text-gray-400">
+      <p className="mx-auto mt-2 max-w-[180px] text-xs leading-5 text-gray-300">
         {label}
       </p>
     </div>

@@ -35,7 +35,7 @@ function Pricing() {
               className={`rounded-md px-5 py-2 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal ${
                 !isAnnual
                   ? 'bg-white text-ink shadow-sm dark:bg-[#293734] dark:text-white'
-                  : 'text-slate hover:text-ink dark:text-gray-500 dark:hover:text-white'
+                  : 'text-slate hover:text-ink dark:text-gray-400 dark:hover:text-white'
               }`}
             >
               Monthly
@@ -47,7 +47,7 @@ function Pricing() {
               className={`rounded-md px-5 py-2 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal ${
                 isAnnual
                   ? 'bg-white text-ink shadow-sm dark:bg-[#293734] dark:text-white'
-                  : 'text-slate hover:text-ink dark:text-gray-500 dark:hover:text-white'
+                  : 'text-slate hover:text-ink dark:text-gray-400 dark:hover:text-white'
               }`}
             >
               Annual
@@ -74,7 +74,7 @@ function Pricing() {
           ))}
         </div>
 
-        <p className="mt-8 text-center text-xs text-slate dark:text-gray-500">
+        <p className="mt-8 text-center text-xs text-slate dark:text-gray-400">
           No credit card required. Cancel or change your plan anytime.
         </p>
       </Container>

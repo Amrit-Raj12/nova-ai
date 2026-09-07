@@ -9,7 +9,7 @@ export default {
     extend: {
       colors: {
         ink: '#17212B',
-        slate: '#5D6873',
+        slate: '#4B5563',
         teal: '#0F766E',
         'teal-dark': '#115E59',
         'teal-bright': '#00A88F',

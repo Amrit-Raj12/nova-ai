@@ -86,7 +86,7 @@ function Footer() {
                   <li key={label}>
                     <a
                       href={href}
-                      className="text-sm text-slate transition hover:text-teal dark:text-gray-500 dark:hover:text-[#61D1C5]"
+                      className="text-sm text-slate transition hover:text-teal dark:text-gray-400 dark:hover:text-[#61D1C5]"
                     >
                       {label}
                     </a>
@@ -98,21 +98,21 @@ function Footer() {
         </div>
 
         <div className="flex flex-col gap-5 py-6 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-xs text-slate dark:text-gray-500">
+          <p className="text-xs text-slate dark:text-gray-400">
             © 2026 NOVA. All rights reserved.
           </p>
 
           <div className="flex items-center gap-5">
             <a
               href="#"
-              className="text-xs text-slate transition hover:text-teal dark:text-gray-500 dark:hover:text-[#61D1C5]"
+              className="text-xs text-slate transition hover:text-teal dark:text-gray-400 dark:hover:text-[#61D1C5]"
             >
               Privacy
             </a>
 
             <a
               href="#"
-              className="text-xs text-slate transition hover:text-teal dark:text-gray-500 dark:hover:text-[#61D1C5]"
+              className="text-xs text-slate transition hover:text-teal dark:text-gray-400 dark:hover:text-[#61D1C5]"
             >
               Terms
             </a>

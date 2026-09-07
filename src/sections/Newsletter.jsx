@@ -65,7 +65,7 @@ function Newsletter() {
                   placeholder="you@example.com"
                   aria-invalid={status === 'error'}
                   aria-describedby="newsletter-message"
-                  className={`min-w-0 flex-1 rounded-lg border bg-cream px-4 py-3 text-sm text-ink outline-none placeholder:text-gray-400 focus:ring-2 focus:ring-teal dark:bg-[#101817] dark:text-white dark:placeholder:text-gray-500 ${
+                  className={`min-w-0 flex-1 rounded-lg border bg-cream px-4 py-3 text-sm text-ink outline-none placeholder:text-gray-500 focus:ring-2 focus:ring-teal dark:bg-[#101817] dark:text-white dark:placeholder:text-gray-400 ${
                     status === 'error'
                       ? 'border-red-400'
                       : 'border-line dark:border-[#40504C]'

@@ -51,7 +51,7 @@ function PricingCard({
           ${price}
         </span>
 
-        <span className="mb-1 text-sm text-slate dark:text-gray-500">
+        <span className="mb-1 text-sm text-slate dark:text-gray-400">
           / month
         </span>
       </div>
@@ -67,7 +67,7 @@ function PricingCard({
 
       <div className="my-7 h-px bg-line dark:bg-[#293734]" />
 
-      <p className="text-xs font-bold uppercase tracking-[0.12em] text-slate dark:text-gray-500">
+      <p className="text-xs font-bold uppercase tracking-[0.12em] text-slate dark:text-gray-400">
         Includes
       </p>
 
